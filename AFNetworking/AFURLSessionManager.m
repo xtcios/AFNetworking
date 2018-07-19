@@ -947,7 +947,19 @@ didReceiveChallenge:(NSURLAuthenticationChallenge *)challenge
         disposition = self.sessionDidReceiveAuthenticationChallenge(session, challenge, &credential);
     } else {
         if ([challenge.protectionSpace.authenticationMethod isEqualToString:NSURLAuthenticationMethodServerTrust]) {
-            if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:challenge.protectionSpace.host]) {
+            
+            /*
+             * 获取原始域名信息。
+             */
+            NSString* host = challenge.protectionSpace.host;
+            if (host) {
+                NSString *domain = [self.host2Domains objectForKey:host];
+                if (domain) {
+                    host = domain;
+                }
+            }
+            
+            if ([self.securityPolicy evaluateServerTrust:challenge.protectionSpace.serverTrust forDomain:host]) {
                 credential = [NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust];
                 if (credential) {
                     disposition = NSURLSessionAuthChallengeUseCredential;

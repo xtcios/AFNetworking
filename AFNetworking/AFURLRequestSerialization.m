@@ -63,7 +63,7 @@ NSString * AFPercentEscapedStringFromString(NSString *string) {
         NSUInteger length = MIN(string.length - index, batchSize);
         NSRange range = NSMakeRange(index, length);
 
-        // To avoid breaking up character sequences such as 👴🏻👮🏽
+        // To avoid breaking up character sequences such as ����
         range = [string rangeOfComposedCharacterSequencesForRange:range];
 
         NSString *substring = [string substringWithRange:range];
@@ -336,6 +336,12 @@ forHTTPHeaderField:(NSString *)field
 - (void)clearAuthorizationHeader {
     dispatch_barrier_async(self.requestHeaderModificationQueue, ^{
         [self.mutableHTTPRequestHeaders removeObjectForKey:@"Authorization"];
+    });
+}
+
+- (void)clearHTTPRequestHeaders{
+    dispatch_barrier_async(self.requestHeaderModificationQueue, ^{
+        [self.mutableHTTPRequestHeaders removeAllObjects];
     });
 }
 

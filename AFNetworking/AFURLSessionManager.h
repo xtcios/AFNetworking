@@ -90,6 +90,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AFURLSessionManager : NSObject <NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate, NSSecureCoding, NSCopying>
 
+
+/**
+ The host(IP address trusted domain
+ */
+@property (nonatomic, strong) NSMutableDictionary *host2Domains;
+
 /**
  The managed session.
  */
