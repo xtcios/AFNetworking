@@ -193,6 +193,9 @@ forHTTPHeaderField:(NSString *)field;
  */
 - (void)clearAuthorizationHeader;
 
+//Opps!
+- (void)clearHTTPRequestHeaders;
+
 ///-------------------------------------------------------
 /// @name Configuring Query String Parameter Serialization
 ///-------------------------------------------------------
