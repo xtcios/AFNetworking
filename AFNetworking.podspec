@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AFNetworking'
-  s.version  = '3.2.1.4'
+  s.version  = '3.2.1.5'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS and OS X networking framework.'
   s.homepage = 'https://github.com/xtcios/AFNetworking'
@@ -66,14 +66,5 @@ EOS
 
     ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}', 'AFNetworking/AFCompatibilityMacros.h'
     ss.public_header_files = 'AFNetworking/AF{URL,HTTP}SessionManager.h', 'AFNetworking/AFCompatibilityMacros.h'
-  end
-
-  s.subspec 'UIKit' do |ss|
-    ss.ios.deployment_target = '7.0'
-    ss.tvos.deployment_target = '9.0'
-    ss.dependency 'AFNetworking/NSURLSession'
-
-    ss.public_header_files = 'UIKit+AFNetworking/*.h'
-    ss.source_files = 'UIKit+AFNetworking'
   end
 end
