@@ -23,20 +23,13 @@
 		1FBBC1C9207D5F8F00631B47 /* httpbinorg_06102018.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1FBBC1C8207D5F8F00631B47 /* httpbinorg_06102018.cer */; };
 		1FBBC1CA207D5F8F00631B47 /* httpbinorg_06102018.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1FBBC1C8207D5F8F00631B47 /* httpbinorg_06102018.cer */; };
 		1FBBC1CB207D5F8F00631B47 /* httpbinorg_06102018.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1FBBC1C8207D5F8F00631B47 /* httpbinorg_06102018.cer */; };
-		2960BAC31C1B2F1A00BA02F0 /* AFUIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */; };
 		297824A31BC2D69A0041C395 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A01BC2D69A0041C395 /* adn_0.cer */; };
 		297824A41BC2D69A0041C395 /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A01BC2D69A0041C395 /* adn_0.cer */; };
 		297824A51BC2D69A0041C395 /* adn_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A11BC2D69A0041C395 /* adn_1.cer */; };
 		297824A61BC2D69A0041C395 /* adn_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A11BC2D69A0041C395 /* adn_1.cer */; };
 		297824A71BC2D69A0041C395 /* adn_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A21BC2D69A0041C395 /* adn_2.cer */; };
 		297824A81BC2D69A0041C395 /* adn_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = 297824A21BC2D69A0041C395 /* adn_2.cer */; };
-		297824AA1BC2DAD80041C395 /* AFAutoPurgingImageCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C801BC2C88F00FD3B3E /* AFAutoPurgingImageCacheTests.m */; };
 		297824AB1BC2DB060041C395 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299522391BBF104D00859F49 /* AFNetworking.framework */; };
-		297824AC1BC2DB450041C395 /* AFImageDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C841BC2C88F00FD3B3E /* AFImageDownloaderTests.m */; };
-		297824AD1BC2DBA40041C395 /* AFNetworkActivityManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C861BC2C88F00FD3B3E /* AFNetworkActivityManagerTests.m */; };
-		297824AE1BC2DBD80041C395 /* AFUIActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8C1BC2C88F00FD3B3E /* AFUIActivityIndicatorViewTests.m */; };
-		297824AF1BC2DBEF0041C395 /* AFUIRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8E1BC2C88F00FD3B3E /* AFUIRefreshControlTests.m */; };
-		297824B01BC2DC2D0041C395 /* AFUIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8D1BC2C88F00FD3B3E /* AFUIImageViewTests.m */; };
 		2987B0AF1BC408A200179A4C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2987B0A51BC408A200179A4C /* AFNetworking.framework */; };
 		2987B0BC1BC408D900179A4C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 299522471BBF125A00859F49 /* AFHTTPSessionManager.m */; };
 		2987B0BD1BC408D900179A4C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2995224A1BBF125A00859F49 /* AFNetworkReachabilityManager.m */; };
@@ -62,10 +55,6 @@
 		2987B0DD1BC40AFB00179A4C /* AltName.cer in Resources */ = {isa = PBXBuildFile; fileRef = 298D7C791BC2C88F00FD3B3E /* AltName.cer */; };
 		2987B0DE1BC40AFB00179A4C /* foobar.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 298D7C7A1BC2C88F00FD3B3E /* foobar.com.cer */; };
 		2987B0DF1BC40AFB00179A4C /* NoDomains.cer in Resources */ = {isa = PBXBuildFile; fileRef = 298D7C7B1BC2C88F00FD3B3E /* NoDomains.cer */; };
-		2987B0E01BC40B0900179A4C /* AFAutoPurgingImageCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C801BC2C88F00FD3B3E /* AFAutoPurgingImageCacheTests.m */; };
-		2987B0E11BC40B0900179A4C /* AFImageDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C841BC2C88F00FD3B3E /* AFImageDownloaderTests.m */; };
-		2987B0E31BC40B0900179A4C /* AFUIActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8C1BC2C88F00FD3B3E /* AFUIActivityIndicatorViewTests.m */; };
-		2987B0E41BC40B0900179A4C /* AFUIImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8D1BC2C88F00FD3B3E /* AFUIImageViewTests.m */; };
 		298D7C4F1BC2C7B200FD3B3E /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299522771BBF136400859F49 /* AFNetworking.framework */; };
 		298D7C961BC2C94400FD3B3E /* AFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8B1BC2C88F00FD3B3E /* AFTestCase.m */; };
 		298D7C971BC2C94500FD3B3E /* AFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D7C8B1BC2C88F00FD3B3E /* AFTestCase.m */; };
@@ -144,7 +133,6 @@
 		29D96E8C1BCC3D7D00F571A5 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2995224F1BBF125A00859F49 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29D96E8D1BCC3D7D00F571A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 299522511BBF125A00859F49 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29D96E8E1BCC3D7D00F571A5 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2995223C1BBF104D00859F49 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29F5EF031C47E64F008B976A /* AFUIWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F5EF021C47E64F008B976A /* AFUIWebViewTests.m */; };
 		2D4563901DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */; };
 		2D4563911DB117A200AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */; };
 		2D4563921DB117A200AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */; };
@@ -205,7 +193,6 @@
 		1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's Encrypt Authority X3.cer"; sourceTree = "<group>"; };
 		1F6F7DF61F1703A100C979D0 /* DST Root CA X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DST Root CA X3.cer"; sourceTree = "<group>"; };
 		1FBBC1C8207D5F8F00631B47 /* httpbinorg_06102018.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_06102018.cer; sourceTree = "<group>"; };
-		2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIButtonTests.m; sourceTree = "<group>"; };
 		297824A01BC2D69A0041C395 /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_0.cer; path = ADNNetServerTrustChain/adn_0.cer; sourceTree = "<group>"; };
 		297824A11BC2D69A0041C395 /* adn_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_1.cer; path = ADNNetServerTrustChain/adn_1.cer; sourceTree = "<group>"; };
 		297824A21BC2D69A0041C395 /* adn_2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_2.cer; path = ADNNetServerTrustChain/adn_2.cer; sourceTree = "<group>"; };
@@ -217,21 +204,15 @@
 		298D7C791BC2C88F00FD3B3E /* AltName.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AltName.cer; sourceTree = "<group>"; };
 		298D7C7A1BC2C88F00FD3B3E /* foobar.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = foobar.com.cer; sourceTree = "<group>"; };
 		298D7C7B1BC2C88F00FD3B3E /* NoDomains.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = NoDomains.cer; sourceTree = "<group>"; };
-		298D7C801BC2C88F00FD3B3E /* AFAutoPurgingImageCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCacheTests.m; sourceTree = "<group>"; };
 		298D7C811BC2C88F00FD3B3E /* AFHTTPRequestSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestSerializationTests.m; sourceTree = "<group>"; };
 		298D7C821BC2C88F00FD3B3E /* AFHTTPResponseSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPResponseSerializationTests.m; sourceTree = "<group>"; };
 		298D7C831BC2C88F00FD3B3E /* AFHTTPSessionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManagerTests.m; sourceTree = "<group>"; };
-		298D7C841BC2C88F00FD3B3E /* AFImageDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloaderTests.m; sourceTree = "<group>"; };
 		298D7C851BC2C88F00FD3B3E /* AFJSONSerializationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFJSONSerializationTests.m; sourceTree = "<group>"; };
-		298D7C861BC2C88F00FD3B3E /* AFNetworkActivityManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityManagerTests.m; sourceTree = "<group>"; };
 		298D7C871BC2C88F00FD3B3E /* AFNetworkReachabilityManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManagerTests.m; sourceTree = "<group>"; };
 		298D7C881BC2C88F00FD3B3E /* AFPropertyListResponseSerializerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListResponseSerializerTests.m; sourceTree = "<group>"; };
 		298D7C891BC2C88F00FD3B3E /* AFSecurityPolicyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicyTests.m; sourceTree = "<group>"; };
 		298D7C8A1BC2C88F00FD3B3E /* AFTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFTestCase.h; sourceTree = "<group>"; };
 		298D7C8B1BC2C88F00FD3B3E /* AFTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFTestCase.m; sourceTree = "<group>"; };
-		298D7C8C1BC2C88F00FD3B3E /* AFUIActivityIndicatorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFUIActivityIndicatorViewTests.m; sourceTree = "<group>"; };
-		298D7C8D1BC2C88F00FD3B3E /* AFUIImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFUIImageViewTests.m; sourceTree = "<group>"; };
-		298D7C8E1BC2C88F00FD3B3E /* AFUIRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFUIRefreshControlTests.m; sourceTree = "<group>"; };
 		298D7C8F1BC2C88F00FD3B3E /* AFURLSessionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManagerTests.m; sourceTree = "<group>"; };
 		298D7CDF1BC2CB5A00FD3B3E /* ADNNetServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ADNNetServerTrustChain; sourceTree = "<group>"; };
 		298D7CE21BC2CB7C00FD3B3E /* HTTPBinOrgServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTPBinOrgServerTrustChain; sourceTree = "<group>"; };
@@ -253,7 +234,6 @@
 		299522651BBF129200859F49 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		299522771BBF136400859F49 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D3413E1C20D46400A7D266 /* AFCompoundResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCompoundResponseSerializerTests.m; sourceTree = "<group>"; };
-		29F5EF021C47E64F008B976A /* AFUIWebViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIWebViewTests.m; sourceTree = "<group>"; };
 		2D45638F1DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLParserResponseSerializerTests.m; sourceTree = "<group>"; };
 		2D4563931DB11DDB00AE4812 /* AFXMLDocumentResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLDocumentResponseSerializerTests.m; sourceTree = "<group>"; };
 		5F4323B31BF63741003B8749 /* Equifax_Secure_Certificate_Authority_Root.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Equifax_Secure_Certificate_Authority_Root.cer; sourceTree = "<group>"; };
@@ -378,7 +358,6 @@
 		298D7C7F1BC2C88F00FD3B3E /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				298D7CD21BC2CAD500FD3B3E /* AFNetworking UIKit Tests */,
 				298D7CD11BC2CABE00FD3B3E /* AFNetworking Tests */,
 				298D7C8A1BC2C88F00FD3B3E /* AFTestCase.h */,
 				298D7C8B1BC2C88F00FD3B3E /* AFTestCase.m */,
@@ -404,21 +383,6 @@
 				298D7C8F1BC2C88F00FD3B3E /* AFURLSessionManagerTests.m */,
 			);
 			name = "AFNetworking Tests";
-			sourceTree = "<group>";
-		};
-		298D7CD21BC2CAD500FD3B3E /* AFNetworking UIKit Tests */ = {
-			isa = PBXGroup;
-			children = (
-				298D7C801BC2C88F00FD3B3E /* AFAutoPurgingImageCacheTests.m */,
-				298D7C841BC2C88F00FD3B3E /* AFImageDownloaderTests.m */,
-				298D7C861BC2C88F00FD3B3E /* AFNetworkActivityManagerTests.m */,
-				298D7C8C1BC2C88F00FD3B3E /* AFUIActivityIndicatorViewTests.m */,
-				298D7C8D1BC2C88F00FD3B3E /* AFUIImageViewTests.m */,
-				298D7C8E1BC2C88F00FD3B3E /* AFUIRefreshControlTests.m */,
-				2960BAC21C1B2F1A00BA02F0 /* AFUIButtonTests.m */,
-				29F5EF021C47E64F008B976A /* AFUIWebViewTests.m */,
-			);
-			name = "AFNetworking UIKit Tests";
 			sourceTree = "<group>";
 		};
 		2995222F1BBF104D00859F49 = {
@@ -868,17 +832,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2987B0CC1BC40A7600179A4C /* AFHTTPSessionManagerTests.m in Sources */,
-				2987B0E41BC40B0900179A4C /* AFUIImageViewTests.m in Sources */,
 				2987B0D11BC40A7600179A4C /* AFURLSessionManagerTests.m in Sources */,
-				2987B0E31BC40B0900179A4C /* AFUIActivityIndicatorViewTests.m in Sources */,
 				2987B0D01BC40A7600179A4C /* AFSecurityPolicyTests.m in Sources */,
 				2987B0CB1BC40A7600179A4C /* AFHTTPResponseSerializationTests.m in Sources */,
 				1BF9F9621C87843300F1F35A /* AFImageResponseSerializerTests.m in Sources */,
 				2987B0CE1BC40A7600179A4C /* AFNetworkReachabilityManagerTests.m in Sources */,
-				2987B0E01BC40B0900179A4C /* AFAutoPurgingImageCacheTests.m in Sources */,
 				2987B0CA1BC40A7600179A4C /* AFHTTPRequestSerializationTests.m in Sources */,
 				29D341411C20D46400A7D266 /* AFCompoundResponseSerializerTests.m in Sources */,
-				2987B0E11BC40B0900179A4C /* AFImageDownloaderTests.m in Sources */,
 				2987B0CF1BC40A7600179A4C /* AFPropertyListResponseSerializerTests.m in Sources */,
 				2987B0D21BC40AD800179A4C /* AFTestCase.m in Sources */,
 				2987B0CD1BC40A7600179A4C /* AFJSONSerializationTests.m in Sources */,
@@ -892,22 +852,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D3413F1C20D46400A7D266 /* AFCompoundResponseSerializerTests.m in Sources */,
-				2960BAC31C1B2F1A00BA02F0 /* AFUIButtonTests.m in Sources */,
 				298D7C961BC2C94400FD3B3E /* AFTestCase.m in Sources */,
 				E91164651DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */,
 				298D7CB11BC2CA6E00FD3B3E /* AFHTTPRequestSerializationTests.m in Sources */,
-				297824AE1BC2DBD80041C395 /* AFUIActivityIndicatorViewTests.m in Sources */,
-				297824AD1BC2DBA40041C395 /* AFNetworkActivityManagerTests.m in Sources */,
 				1BF9F9601C87832B00F1F35A /* AFImageResponseSerializerTests.m in Sources */,
 				298D7CDD1BC2CAF700FD3B3E /* AFSecurityPolicyTests.m in Sources */,
 				298D7CD31BC2CAE800FD3B3E /* AFHTTPResponseSerializationTests.m in Sources */,
-				297824B01BC2DC2D0041C395 /* AFUIImageViewTests.m in Sources */,
-				297824AF1BC2DBEF0041C395 /* AFUIRefreshControlTests.m in Sources */,
 				298D7CD91BC2CAF200FD3B3E /* AFNetworkReachabilityManagerTests.m in Sources */,
-				297824AA1BC2DAD80041C395 /* AFAutoPurgingImageCacheTests.m in Sources */,
 				298D7C981BC2CA2500FD3B3E /* AFURLSessionManagerTests.m in Sources */,
-				297824AC1BC2DB450041C395 /* AFImageDownloaderTests.m in Sources */,
-				29F5EF031C47E64F008B976A /* AFUIWebViewTests.m in Sources */,
 				2D4563901DB1179D00AE4812 /* AFXMLParserResponseSerializerTests.m in Sources */,
 				298D7CD51BC2CAEC00FD3B3E /* AFHTTPSessionManagerTests.m in Sources */,
 				298D7CD71BC2CAEF00FD3B3E /* AFJSONSerializationTests.m in Sources */,
